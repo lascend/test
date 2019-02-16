@@ -1,1 +1,30 @@
-test
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type"content="text/html;charset=utf-8" \>
+		<title>TT留言板</title>
+		<link rel='stylesheet' type='text/css' href='style.css'>
+	</head>
+	<body>
+		<div class="wrap">
+			<!-- 发表留言 -->
+			<div class="add">
+			<form action="index.php" method="post">
+				<textarea class="content" name="content" rows="5" cols="20">我是文本框</textarea>
+				<input type="text" name="user" class="user" value="name" \> 
+				<input type="submit" class="bth" value="Submit" \>
+			</form>	
+			</div>
+			<!-- 查看留言 -->
+			<div class="msg">
+				<div class="info">
+					<span class="user">用户名</span>
+					<span class="time">时间</span>
+				</div>
+				<div class="content">
+					留言内容
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
